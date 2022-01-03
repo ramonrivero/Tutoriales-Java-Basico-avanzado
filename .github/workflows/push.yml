@@ -2,7 +2,8 @@ name: Deploy de la página
 on:
   push:
     branches:
-      - main
+      - gh-pages
+       -  main
 jobs:
   deploy-page:
     runs-on: win
